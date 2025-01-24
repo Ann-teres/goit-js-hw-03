@@ -45,16 +45,14 @@ function countOccurrences(arr, element) {
 // Напиши функцію яка приймає масив чисел. 
 // Функція повинна видалити усі негативні(відємні числа) з масиву та повернути новий масив.
 
-function name(arr, number) {
-    arr(number % 2 === 0)
-}
-return arr[];
+// function name(arr, number) {
+//     arr(number % 2 === 0)
+// }
+// return arr[];
 
 function removeNegativeNumbers(arr) {
   // Використовуємо filter, щоб залишити лише числа, більші або рівні нулю
-  return arr.filter(num => num >= 0);
-}
-
+  
 // Приклад використання:
 const array = [1, -2, 3, -4, 5, -6];
 console.log(removeNegativeNumbers(array));
@@ -142,9 +140,9 @@ function findMax(arr) {
 // Напиши функцію яка приймає масив та повертає масив лише з тих елементів які 
 // більші за середнє значення всіх елементів масиву.
 
-function (array) {
-    return (i )
-}
+// function (array) {
+//     return (i )
+// }
 
 
 // Напишіть функцію sumArray(numbers, callback), яка приймає масив чисел numbers та колбек callback.
@@ -194,11 +192,11 @@ callback(sortedNumbers)
 // Пошук максимуму: Напишіть функцію findMax(numbers, callback), яка приймає масив чисел numbers та колбек callback. 
 // Функція повинна знайти максимальне число в масиві та передати його в колбек.
 
-const findMax = (numbers, callback) => {
-  const maxNumber = Math.max(...numbers);
-}
+// const findMax = (numbers, callback) => {
+//   const maxNumber = Math.max(...numbers);
+// }
  
-callback(maxNumber)
+// callback(maxNumber)
 
 // Перевірка на парність: Напишіть функцію checkEven(numbers, callback), яка приймає масив чисел numbers та колбек callback.
 //  Функція повинна перевірити, чи всі числа в масиві парні, і передати результат перевірки колбек.
@@ -216,13 +214,5 @@ const concatStrings = (strings, separator, callback) => {
   const result = strings.join(separator); 
 }
 callback(result);
-
-// Перетворення в числа: Напишіть функцію parseNumbers(strings, callback), яка приймає масив рядків strings та колбек callback. 
-// Функція повинна перетворити кожен рядок з масиву на число і передати новий масив чисел в колбек.
-
-const parseNumbers = (strings, callback) => {
-  const number = strings.map(str => numparseFloat(str));
-}
-callback(number)
 
 
